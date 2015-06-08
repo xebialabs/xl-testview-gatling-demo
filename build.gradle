@@ -1,0 +1,15 @@
+
+apply plugin:'scala'
+apply plugin:'application'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "io.gatling.highcharts:gatling-charts-highcharts:2.0.0-RC3"
+}
+
+
+mainClassName = "com.xebialabs.xltest.samplegatling.Main"
+
